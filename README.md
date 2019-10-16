@@ -1,7 +1,7 @@
 # LottoApp
 
 Console application that asks user for lotto numbers and checks how many years it takes to win the lotto with them.
-Already after few tries, you might reconsider your changes to win the real Lotto!
+Already after few tries, you might reconsider your chances to win the real Lotto!
 
 Your computer needs to have JRE (Java Runtime) or JDK (Java Development Kit) installed for this software to work.
 
