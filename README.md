@@ -10,7 +10,7 @@ Your computer needs to have JRE (Java Runtime) or JDK (Java Development Kit) ins
 -Open a console (for example command prompt).
 -Inside console, go to directory holding LottoUI.java file.
 -Type: "javac LottoUI.java"
--Type: "java LottoUI" 
+-Type: "java LottoUI"
  or if you want to give numbers immediately when running the program, 
  you can instead for example type: "java LottoUI 1 2 3 4 5 6 7",
  which runs the program with numbers 1, 2, 3, 4, 5, 6 and 7.
