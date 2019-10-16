@@ -6,6 +6,7 @@ Already after few tries, you might reconsider your changes to win the real Lotto
 Your computer needs to have JRE (Java Runtime) or JDK (Java Development Kit) installed for this software to work.
 
 -HOW TO RUN-
+
 -Open a console (for example command prompt).
 -Inside console, go to directory holding LottoUI.java file.
 -Type: "javac LottoUI.java"
