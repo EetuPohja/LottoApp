@@ -27,15 +27,13 @@ If the matching takes longer than 120 years, the program tries again.
 -WANT TO GO DEEPER?-
 
 If you open the code, you can change how many numbers the lotto has (default 7), 
-
 the size of the numberspool (default 40), however if changing the numberspool you 
-
 should also change the minimum and maximum values for the numberspool 
-
 (more instructions in the code, above the min and max variables).
 
 
 In the code, variables:
+
 int amountOfLottoNums = 7; 	(controls the amount of numbers the lotto has)
 int lottoNumbersPoolSize = 40;  (controls the size of the numberspool (should always be the size of: max - min + 1))
 int min = 1;			(controls the number where the numberspool starts)
