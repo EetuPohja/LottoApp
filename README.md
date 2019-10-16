@@ -17,6 +17,7 @@ Your computer needs to have JRE (Java Runtime) or JDK (Java Development Kit) ins
 -If you want to stop the program, press:  Ctrl + c
 
 -WHAT THE PROGRAM DOES-
+
 The program asks user for numbers, then randomly selects 
 same amount of numbers out of numberspool and checks how 
 long it takes for user numbers to match the randomly selected 
@@ -24,10 +25,15 @@ numbers if the randomly selected numbers are reselected every week.
 If the matching takes longer than 120 years, the program tries again.
 
 -WANT TO GO DEEPER?-
+
 If you open the code, you can change how many numbers the lotto has (default 7), 
+
 the size of the numberspool (default 40), however if changing the numberspool you 
+
 should also change the minimum and maximum values for the numberspool 
+
 (more instructions in the code, above the min and max variables).
+
 
 In the code, variables:
 int amountOfLottoNums = 7; 	(controls the amount of numbers the lotto has)
