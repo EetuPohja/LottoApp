@@ -21,7 +21,7 @@ Your computer needs to have JRE (Java Runtime) or JDK (Java Development Kit) ins
  
  which runs the program with numbers 1, 2, 3, 4, 5, 6 and 7.
  
--If you want to stop the program, press:  Ctrl + c
+-If you want to stop the program, press:  Ctrl + C
 
 -WHAT THE PROGRAM DOES-
 
@@ -33,20 +33,17 @@ If the matching takes longer than 120 years, the program tries again.
 
 -WANT TO GO DEEPER?-
 
-If you open the code, you can change how many numbers the lotto has (default 7), 
-the size of the numberspool (default 40), however when changing the numberspool you 
-should also change the minimum and maximum values for the numberspool 
-(more instructions in the code, above the min and max variables).
-
+If you open the code, you can change how many numbers the lotto has (default 7) and 
+the size of the numberspool via changing the variables int min and int max.
 
 In the code, variables:
 
 int amountOfLottoNums = 7; 	(controls the amount of numbers the lotto has)
 
-int lottoNumbersPoolSize = 40;  (controls the size of the numberspool (should always be the size of: max - min + 1))
-
 int min = 1;			(controls the number where the numberspool starts)
 
 int max = 40;			(controls the number where the numberspool ends)
+
+int lottoNumbersPoolSize = max - min + 1;  (controls the size of the numberspool (should always be the size of: max - min + 1))
 
 GOOD LUCK AND HAVE FUN!
